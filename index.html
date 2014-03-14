@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+	    <title>Benoit Lafond - Designer </title>
+	    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	    <meta name="description" content=""/>
+	
+	    
+	    <link rel="stylesheet" type="text/css" href="css/style.css" />
+	    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>  
+	    
+    </head>
+  <body>
+  
+    	<header>
+  		
+  			<nav>
+  				<ul>
+  					<li><a href="#work">Work</a></li>
+  					<li><a href="#about">About</a></li>
+  					<li><a href="#contact">Contact</a></li>
+  				</ul>
+  			</nav>
+  		
+  		</header>
+  
+  	<div class="top">
+
+  		<section id="home">
+  	
+  			<div class="home-content">
+	  			<div class="logo"></div>
+	  			<h1>French UX/UI designer</h1>
+	  			<div class="separator"></div>
+	  			<p>Hello i’m benoit Lafond. i am 23 years old designer from paris. 
+		  			I love pixel-awesomesness.</p>
+		  		
+		  		<div class="btn">
+		  			<a href="#middle">My selection works</a>
+		  		</div>
+  			</div>
+  		
+  		</section>
+  	  
+  
+
+  	</div>
+  	
+  	
+  	<div id="middle">
+  		<section class="works">
+  			
+  			<article class="projet-1">
+  				
+  				<div class="text">
+	  				<h1>Le manoir magique</h1>
+	  				<div class="separator"></div>
+	  				<div class="btn">
+		  				<a href="#">View case study</a>
+		  			</div>
+  				</div>
+  			</article>
+  			
+  			<article class="projet-2">
+  				
+  				<div class="text">
+	  				<h1>World cup</h1>
+	  				<div class="separator"></div>
+	  				<div class="btn">
+		  				<a href="#">View case study</a>
+		  			</div>
+  				</div>
+	  			
+  			</article>
+  			
+  			<article class="projet-3">
+  			
+  				<div class="text">
+	  				<h1>My Trip</h1>
+	  				<div class="separator"></div>
+	  				<div class="btn">
+		  				<a href="#">View case study</a>
+		  			</div>
+  				</div>
+	  			
+  			</article>
+  			
+  			<article class="projet-4">
+  			
+  				<div class="text">
+	  				<h1>Adrien Lafond</h1>
+	  				<div class="separator"></div>
+	  				<div class="btn">
+		  				<a href="#">View case study</a>
+		  			</div>
+  				</div>
+	  			
+  			</article>
+  			
+  		</section>
+  	</div>
+  	
+  	
+  	<div id="bottom">
+	  	<footer>
+	  	
+	  		<p>Copyright © 2013 - 2014 - Benoît Lafond, developed by <a href="#">Franck Osei</a></p>
+	  	
+	  	</footer>
+  	</div>
+ 
+  </body>
+  <script>
+  
+  $('a[href^="#"]').click(function(){  
+    var the_id = $(this).attr("href");  
+    $('html, body').animate({  
+        scrollTop:$(the_id).offset().top  
+    }, 'slow');  
+    return false;  
+}); 
+
+  $('a[href^="#"]').click(function(){  
+    var the_id = $(this).attr("href");  
+    $('html, body').animate({  
+        scrollLeft:$(the_id).offset().left  
+    }, 'slow');  
+    return false;  
+}); 
+
+
+  </script>
+ 
+</html>
