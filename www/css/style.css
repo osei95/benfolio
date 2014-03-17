@@ -423,14 +423,14 @@ nav a:hover{
 
 #middle .works article .text{
 	padding-top: 110px;
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 0, 0.0);
 	height: 259px;
 	opacity: 1;
 	transition: background 0.2s ease-in-out;
 }
 
 #middle .works article .text:hover{
-	background-color: rgba(0, 0, 0, 0.9);
+	background-color: rgba(0, 0, 0, 0.7);
 	transition: background 0.2s ease-in-out;
 }
 
