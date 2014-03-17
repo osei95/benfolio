@@ -364,7 +364,7 @@ nav a:hover{
 /*MIDDLE SIDE CSS*/
 
 #middle {
-	height: 100%;
+	height: 90%;
 }
 
 #middle .works{
@@ -481,19 +481,30 @@ nav a:hover{
 
 #bottom {
 	color: #b9b9b9;
+	height: 5%;
 	/*height: 61px;*/
 	
 }
 
 #bottom footer {
-	
 	position: relative;
+	text-align: center;
+	display: inline-block;
+	margin: 0 auto;
+	width: 100%;
 	
 }
 
 #bottom footer p{
 	text-align: center;
-	padding: 50px 0 25px 0;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	display: inline-block;
+	padding: 10px 0 10px 0;
+	height: 8%;
+	margin: 0 auto;
+	width: 100%;
 	
 }
 
