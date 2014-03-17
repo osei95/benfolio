@@ -291,11 +291,12 @@ nav a:hover{
 	text-transform: uppercase;
 	font-family: "brandon_grotesquebold";
 	text-align: center;
-	font-size: 33px;
+	font-size: 35px;
 	letter-spacing: 2px;
-	
-	
-	
+}
+
+#home h1 span {
+	color: #00b3e5;
 }
 
 .separator{
@@ -384,8 +385,9 @@ nav a:hover{
 	font-size: 33px;
 	letter-spacing: 2px;
 	
-	
 }
+
+
 
 #middle .separator{
 	border-bottom: 1px solid #fff;
