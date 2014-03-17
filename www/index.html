@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Benoit Lafond - French UX/UI Designer</title>
+		meta name="description" content="Benoit Lafond - French UX/UI Designer - HELLO I’M BENOIT LAFOND. I AM 23 YEARS OLD DESIGNER FROM PARIS. I LOVE PIXEL-AWESOMESNESS." />
+		<!--<link rel="stylesheet" type="text/css" href="css/default.css" />-->
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+
+			<div id="top">
+			<div class="main">
+				<div id="cbp-contentslider" class="cbp-contentslider">
+					<header>
+					
+						<nav>
+							<a href="#slide1"><span>Work</span></a>
+							<a href="#slide2"><span>About</span></a>
+							<a href="#slide3"><span>Contact</span></a>
+						</nav>
+					
+					</header>
+					
+					<ul>
+						<li id="slide1">
+							<div id="home">
+								<div class="cbp-content">
+						  			<div class="logo"></div>
+						  			<h1>French UX/UI designer</h1>
+						  			<div class="separator"></div>
+						  			<p>Hello i’m benoit Lafond. 
+						  			I am 23 years old designer from paris. 
+							  			I love pixel-awesomesness.</p>
+								</div>
+							</div>
+							
+						</li>
+						
+						<li id="slide2">
+							<div id="about">
+								<div class="cbp-content">
+						  			<div class="profil"></div>
+						  			
+						  			<div class="links">
+						  				<a href="#">Who I am</a>
+						  				<a href="#middle">What I do</a>
+						  			</div>
+						  			
+						  			<div class="separator"></div>
+						  			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit inatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam </p>
+							  		
+						  		</div>
+							</div>
+							
+						</li>
+
+					</ul>
+					
+
+				</div>
+				<div class="btn">
+					<a href="#middle">My selection works</a>
+				</div>
+				
+			</div>
+			</div>
+			
+			
+  	<div id="middle">
+  		<section class="works">
+  			
+  			<article class="projet-1">
+  				
+  				<div class="text">
+	  				<h1>Le manoir magique</h1>
+	  				<div class="separator"></div>
+	  				<div class="btn">
+		  				<a href="#">View case study</a>
+		  			</div>
+  				</div>
+  			</article>
+  			
+  			<article class="projet-2">
+  				
+  				<div class="text">
+	  				<h1>World cup</h1>
+	  				<div class="separator"></div>
+	  				<div class="btn">
+		  				<a href="#">View case study</a>
+		  			</div>
+  				</div>
+	  			
+  			</article>
+  			
+  			<article class="projet-3">
+  			
+  				<div class="text">
+	  				<h1>My Trip</h1>
+	  				<div class="separator"></div>
+	  				<div class="btn">
+		  				<a href="#">View case study</a>
+		  			</div>
+  				</div>
+	  			
+  			</article>
+  			
+  			<article class="projet-4">
+  			
+  				<div class="text">
+	  				<h1>Adrien Lafond</h1>
+	  				<div class="separator"></div>
+	  				<div class="btn">
+		  				<a href="#">View case study</a>
+		  			</div>
+  				</div>
+	  			
+  			</article>
+  			
+  		</section>
+  	</div>
+  	
+  	<div id="bottom">
+	  	<footer>
+	  	
+	  		<p>Copyright © 2013 - 2014 - Benoît Lafond, developed by <a href="#">Franck Osei</a></p>
+	  	
+	  	</footer>
+  	</div>	
+			
+			
+			
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/jquery.cbpContentSlider.min.js"></script>
+		<script>
+			$(function() {
+				/*
+				- how to call the plugin:
+				$( selector ).cbpContentSlider( [options] );
+				- options:
+				{
+					// default transition speed (ms)
+					speed : 500,
+					// default transition easing
+					easing : 'ease-in-out',
+					// current item's index
+					current : 0
+				}
+				- destroy:
+				$( selector ).cbpContentSlider( 'destroy' );
+				*/
+
+				$( '#cbp-contentslider' ).cbpContentSlider();
+			});
+  
+				  $('a[href^="#"]').click(function(){  
+				    var the_id = $(this).attr("href");  
+				    $('html, body').animate({  
+				        scrollTop:$(the_id).offset().top  
+				    }, 'slow');  
+				    return false;  
+				}); 
+				
+				  $('a[href^="#"]').click(function(){  
+				    var the_id = $(this).attr("href");  
+				    $('html, body').animate({  
+				        scrollLeft:$(the_id).offset().left  
+				    }, 'slow');  
+				    return false;  
+				}); 
+
+		</script>
+	</body>
+</html>
