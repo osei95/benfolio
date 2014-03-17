@@ -422,16 +422,16 @@ nav a:hover{
 }
 
 #middle .works article .text{
-	padding-top:110px; 
-	background-color: rgba(0, 0, 0, 0.9);
-	height:259px;
-	opacity: 0;
-	transition: opacity 0.2s ease-in-out;
+	padding-top: 110px;
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 259px;
+	opacity: 1;
+	transition: background 0.2s ease-in-out;
 }
 
 #middle .works article .text:hover{
-	opacity: 1;
-	transition: opacity 0.2s ease-in-out;
+	background-color: rgba(0, 0, 0, 0.9);
+	transition: background 0.2s ease-in-out;
 }
 
 #middle .works .projet-1{
@@ -468,7 +468,7 @@ nav a:hover{
 
 #middle .works article .text .separator{
 	border-bottom:1px solid #b9b9b9;
-	margin: 40px auto 40px auto;
+	margin: 40px auto 80px auto;
 }
 
 
@@ -493,6 +493,7 @@ nav a:hover{
 
 #bottom footer p{
 	text-align: center;
+	padding: 50px 0 25px 0;
 	
 }
 
