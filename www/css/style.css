@@ -730,8 +730,8 @@ nav a:hover{
 }
 
 #worldcup #first .display-1 {
-	background-image: url(images/cs-wcl/display-1.png);
-	height: 50px;
-	border: 1px solid black;
+	background: url(images/cs-wcl/display-1.png) no-repeat;
+	height: 520px;
+	width: 100%;
 	
 }
