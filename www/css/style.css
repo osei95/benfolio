@@ -87,11 +87,11 @@ body {
 .cbp-contentslider > ul {
 	list-style: none;
 	height: 100%;
-	width: 100%;
+	width: 980px;
 	overflow: hidden;
 	position: relative;
 	padding: 0;
-	margin: 0;
+	margin: 0 auto;
 }
 
 .cbp-contentslider > ul li {
@@ -325,12 +325,19 @@ nav a:hover{
 
 }
 
+#slide2 {
+	width:980px;
+	margin: 0 auto;
+	margin : 0 25px 0 25px;
+	text-align: center;
+}
+
 #about p {
 	color: rgba(255, 255, 255, 0.5);
 	width: 100%;
 	line-height: 20px;
 	text-align: justify;
-
+	/*margin-left:100px;*/
 
 }
 
