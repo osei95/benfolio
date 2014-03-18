@@ -165,15 +165,24 @@ body {
 	text-align: center;	
 	font-size: 16px;
 }
+
+
+
 .cbp-contentslider nav a {
 	float: left;
+	background-image: url("images/menu-sep.png");
+	background-position: 0px 6px;
+	background-repeat: no-repeat;
 	-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 	-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 	
 }
 
-
+.cbp-contentslider nav a:first-child {
+	background: none;
+	
+}
 
 .cbp-contentslider nav a span {
 	display: block;
@@ -210,6 +219,8 @@ body {
 	overflow: hidden;
 	
 }
+
+
 
 #home ul{
 	height: 100%;
@@ -281,6 +292,12 @@ nav a:hover{
 	margin: 8% auto;
 }
 
+.space {
+	height: 43px;
+	width: 28px;
+	margin: 8% auto;
+}
+
 
 /*Header*/
 
@@ -318,27 +335,107 @@ nav a:hover{
 	font-size: 14px;
 }
 
-#about .links {
-	width: 50%;
-	margin: 0 auto;
-	text-align: center;
+#about{
+	position: relative;
 }
 
-#about .links a {
-	color:#fff;
-	padding: 0 5% 0 5%;
-	text-decoration: none;
+#about h1 {
+	text-align: center;
+	font-size: 16px;
+	color: #00b3e5;
 	text-transform: uppercase;
+	margin-bottom: 60px;
+}
+
+#about .separator {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 8%;
+	margin: 8px auto 8px auto;
+	
+}
+
+
+#about .right {
+	width: 46%;
+	float: right;
+	
+}
+
+#about .left {
+	width: 46%;
+	float: left;
+
+
 }
 
 #about p {
-	width: 50%;
-	text-align:center;
-	margin: 35px auto;
-	color: rgba(255, 255, 255, 0.3);
+	color: rgba(255, 255, 255, 0.5);
+	width: 100%;
 	line-height: 20px;
+	text-align: justify;
+
+
 }
 
+#contact{
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	
+}
+
+
+
+#contact .contact-block {
+	width: 565px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+#contact h1 {
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "brandon_grotesquebold";
+	text-align: center;
+	font-size: 35px;
+	letter-spacing: 2px;
+}
+
+#contact h2 {
+	color: #00b3e5;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: "brandon_grotesquebold";
+	right: 4px;
+	top: -18px;
+	position: absolute;
+}
+
+
+.separator{
+	border-bottom: 1px solid #fff;
+	width: 130px;
+	margin: 40px auto 20px auto;
+}
+
+#contact p{
+	width: 59%;
+	padding: 20px 0 20px 0;
+	margin: 0 auto;
+	color:#a7a7a7;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-family: "brandon_grotesquebold";
+	text-align: center;
+	line-height: 20px;
+	font-size: 14px;
+}
 
 
 .btn a {
