@@ -111,17 +111,24 @@ table {
 /* Needed for a fluid height: */
 html, body, .container, .main { height: 100%;}
 
+.left{
+	width: 50%;
+	float: left;
+}
+
+.right{
+	width: 50%;
+	float: left;
+}
+
 body {
-	background: url(images/background.jpg);
+	
 	height: 100%;
 	min-height: 100%;
 	width: 100%;
 	margin: 0;
 	padding: 0;
 	background-color: #000;
-	background-repeat: no-repeat;
-	background-position:center;
-	background-position-y: 90%;
 	font-family: "brandon_grotesqueregular";
 }
 
@@ -204,9 +211,14 @@ body {
 
 #top{
 	height: 100%;
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
+	background: url(images/background.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position:center;
+	background-position-y: 90%;
 	
 	
 }
@@ -470,7 +482,6 @@ nav a:hover{
 
 #middle .works article{
 	width: 50%;
-	height:370px;
 	float: left;
 }
 
@@ -522,7 +533,7 @@ nav a:hover{
 #middle .works article .text{
 	padding-top: 110px;
 	background-color: rgba(0, 0, 0, 0.0);
-	height: 259px;
+	height: 100%;
 	opacity: 1;
 	transition: background 0.2s ease-in-out;
 }
@@ -535,29 +546,32 @@ nav a:hover{
 #middle .works .projet-1{
 	background-image: url(images/le-manoir-enchante.png);
 	background-repeat: no-repeat;
+	background-size: 100%;
 	background-position: center;
-	height:369px;
 }
 
 #middle .works .projet-2{
 	background-image: url(images/world-cup.png);
 	background-repeat: no-repeat;
+	background-size: 100%;
 	background-position: center;
-	height:369px;
+
 }
 
 #middle .works .projet-3{
 	background-image: url(images/mytrip.png);
 	background-repeat: no-repeat;
+	background-size: 100%;
 	background-position: center;
-	height:369px;
+	
 }
 
 #middle .works .projet-4{
 	background-image: url(images/adrienlafond.png);
 	background-repeat: no-repeat;
+	background-size: 100%;
 	background-position: center;
-	height:369px;
+	
 }
 
 #middle .works article .text h1{
@@ -614,3 +628,143 @@ nav a:hover{
 }
 /*BOTTOM SIDE CSS*/
 
+
+/*WC CSS*/
+
+/*icons*/
+
+#worldcup .what{
+	background-image: url(images/what.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 30px 0 0px 0;
+	height: 22px;
+	
+}
+
+#worldcup .where{
+	background-image: url(images/where.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 30px 0 0px 0;
+	height: 22px;
+	
+}
+
+#worldcup .who{
+	background-image: url(images/who.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 30px 0 0px 0;
+	height: 22px;
+	
+}
+
+#worldcup .when{
+	background-image: url(images/when.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 30px 0 0px 0;
+	height: 22px;
+	
+}
+/*icons*/
+
+#worldcup{
+	background-color: #4c6883;
+	height: 100%;
+	height: 100%;
+	min-height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "brandon_grotesqueregular";
+}
+
+#worldcup .container{
+	width: 78%;
+	margin: 0 auto;
+}
+
+#worldcup header{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+	padding-bottom: 75px;
+	width: 100%;
+} 
+
+#worldcup ul {
+	padding: 0px 0 35px 0;
+}
+
+#worldcup ul li {
+	float: left;
+	width: 25%;
+	text-align: center;
+	color: #dbe1e6;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+#worldcup #top-4w {
+	height: 5%;
+}
+
+#worldcup #zero {
+	height: 20%;
+}
+
+#worldcup #first {
+	height: 75%;
+	background-image: url(images/bg-blur.png);
+	background-size: 100%;
+	background-position: center;
+}
+
+#worldcup .top-quit .quit-icon{
+	background-image: url(images/quit.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 21px;
+	padding: 0 11px 0 11px;
+	margin:25px auto 50px auto;
+	
+}
+
+#worldcup .top-quit h1 {
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	font-size: 31px;
+	margin-top: 0;
+	
+	
+}
+
+#worldcup .top-quit .separator {
+	width:20px;
+	margin: 24px auto;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	
+}
+
+#worldcup .top-quit h2 {
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	font-size: 14px;
+	
+}
+
+#worldcup #first h1 {
+	font-size: 30px;
+	font-family: "brandon_grotesquebold";
+	text-transform: uppercase;
+	color: #fff;
+	
+}
+
+#worldcup #first .separator {
+	width: 70%;
+	margin: 25px 0 25px 0;;
+	
+}
