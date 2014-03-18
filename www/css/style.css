@@ -157,7 +157,7 @@ body {
 	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
-	background: url(images/background.jpg);
+	/*background: url(images/background.jpg);*/
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-position:center;
@@ -265,10 +265,11 @@ nav a:hover{
 	text-align: center;
 	font-size: 35px;
 	letter-spacing: 2px;
+	opacity:.8;
 }
 
 #home h1 span {
-	color: #00b3e5;
+	opacity:.2;
 }
 
 .separator{
@@ -288,6 +289,7 @@ nav a:hover{
 	text-align: center;
 	line-height: 20px;
 	font-size: 14px;
+	opacity: .8;
 }
 
 #about{
