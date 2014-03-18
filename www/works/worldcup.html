@@ -34,7 +34,7 @@
 		
 		<section id="first">
 			
-			<div class="left">
+			<div data-scroll-reveal="wait 0.3s and then ease-in-out 10px" class="left">
 			<h1>Hackathon</h1>
 			<div class="separator"></div>
 			<p>
@@ -50,12 +50,12 @@
 			</div>
 			
 			<div class="right">
-				<div data-scroll-reveal="enter left and move 50px over 1.33s" class="display-1"></div>
+				<div data-scroll-reveal="wait 0.3s and then ease-in-out 10px" class="display-1"></div>
 			</div>
 		</section>
 		
 		
-		<section id="second">
+		<section data-scroll-reveal="wait 0.3s and then ease-in-out 10px" id="second">
 			<h1>Timeline</h1>
 			<div class="display-2"></div>
 			<div class="display-3">
@@ -151,8 +151,14 @@
 	</div>
 	</body>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="js/jquery.cbpContentSlider.min.js"></script>
-		<script src="js/scrollReveal.js"></script>
+		<script src="../js/jquery.cbpContentSlider.min.js"></script>
+		<script src="../js/scrollReveal.js"></script>
+		  <script>
+
+			  window.scrollReveal = new scrollReveal();
+
+			  </script>
+		
 		<script>
 			$(function() {
 				/*
