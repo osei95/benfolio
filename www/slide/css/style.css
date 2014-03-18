@@ -843,3 +843,10 @@ nav a:hover{
 	border: 1px solid black;
 }
 
+#worldcup .display-4 {
+	background: url(images/cs-wcl/display-1.png) no-repeat;
+	height: 520px;
+	width: 100%;
+	
+}
+
