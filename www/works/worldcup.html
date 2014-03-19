@@ -8,8 +8,11 @@
 		<meta name="description" content="Benoit Lafond - French UX/UI Designer - HELLO I’M BENOIT LAFOND. I AM 23 YEARS OLD DESIGNER FROM PARIS. I LOVE PIXEL-AWESOMESNESS." />
 		<!--<link rel="stylesheet" type="text/css" href="css/default.css" />-->
 		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+		<link rel="stylesheet" type="text/css" href="../css/animate.css" />
 		<link rel="stylesheet" type="text/css" href="../css/fonts.css" />
 		<script src="../js/modernizr.custom.js"></script>
+		
+		
 	</head>
 	
 	<body id="worldcup">
@@ -25,8 +28,17 @@
 		</header>-->
 		
 		<section id="zero">
+		
+		
 			<div class="top-quit">
-				<div data-scroll-reveal="enter top, move 40px, over 0.5s, wait 2.0s" class="controllers">
+				<div id="controllers-fixed" class="animated slideInDown">
+				<a href="../index.html"><div class="quit-icon"></div></a>
+				<a href="#"><div class="previous"></div></a>
+				<a href="#"><div class="next"></div></a>
+				</div>
+			
+			
+				<div data-scroll-reveal="enter top, move 40px, over 0.5s, wait 2.0s" id="controllers">
 				<a href="../index.html"><div class="quit-icon"></div></a>
 				<a href="#"><div class="previous"></div></a>
 				<a href="#"><div class="next"></div></a>
@@ -199,6 +211,7 @@
 
 		
 		<script src="../js/scrollReveal.js"></script>
+		<script src="../js/main.js"></script>
 		  <script>
 
 			  window.scrollReveal = new scrollReveal();
