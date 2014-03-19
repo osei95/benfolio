@@ -589,7 +589,7 @@ nav a:hover{
 	background-image: url(images/what.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	padding: 30px 0 0px 0;
+	padding: 0px 0 30px 0;
 	height: 22px;
 	
 }
@@ -598,7 +598,7 @@ nav a:hover{
 	background-image: url(images/where.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	padding: 30px 0 0px 0;
+	padding: 0px 0 30px 0;
 	height: 22px;
 	
 }
@@ -607,7 +607,7 @@ nav a:hover{
 	background-image: url(images/who.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	padding: 30px 0 0px 0;
+	padding: 0px 0 30px 0;
 	height: 22px;
 	
 }
@@ -616,7 +616,7 @@ nav a:hover{
 	background-image: url(images/when.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	padding: 30px 0 0px 0;
+	padding: 0px 0 30px 0;
 	height: 22px;
 	
 }
@@ -638,13 +638,14 @@ nav a:hover{
 
 #worldcup header{
 	border-bottom: 1px solid #d2d2d2;
-	padding-bottom: 50px;
 	margin: 0 auto;
-	width: 76%;
+	width: 980px;
+	height: 140px;
+	padding-top: 0;
 } 
 
 #worldcup ul {
-	padding: 0px 0 35px 0;
+	padding: 30px 0 0 0;
 }
 
 #worldcup ul li {
@@ -656,12 +657,10 @@ nav a:hover{
 	font-size: 12px;
 }
 
-#worldcup #top-4w {
-	height:  	;
-}
 
 #worldcup #zero {
-	height: 25%;
+	height: 18%;
+	margin-bottom: 50px;
 }
 
 #worldcup .top-quit{
@@ -691,9 +690,9 @@ nav a:hover{
 }
 
 #worldcup .top-quit .separator {
-	width:2%;
-	margin: 24px auto;
-	border: 1px solid #808080;
+	width: 2%;
+	margin: 25px auto;
+	border-bottom: 1px solid #808080;
 	
 }
 
@@ -719,7 +718,7 @@ nav a:hover{
 
 #worldcup #first h1 {
 	font-size: 30px;
-	padding-top: 190px;
+	padding-top: 150px;
 	font-family: "brandon_grotesquebold";
 	text-transform: uppercase;
 	color: #808080;
@@ -912,24 +911,33 @@ nav a:hover{
 
 .third-slide ul li .list-content{
 	margin: 0 auto;
-	width: 85%;
+	width: 980px;
 }
 
 .third-slide ul li .left{
 	float: left;
 	width: 50%;
-	text-align: left;
 }
+
+.third-slide ul li .left-2{
+	float: left;
+	width: 50%;
+}
+
 .third-slide ul li .right{
 	float: right;
-	width: 50%;
 	text-align: left;
+	width: 50%;
+}
+
+.third-slide ul li .right .text{
+	margin-top: 50px;
+	margin-left: 100px;
 	
 }
 
-.third-slide ul li .text{
-	margin-top: 80px;
-	margin-left: 60px;
+.third-slide ul li .left-2 .text{
+	margin-top: 50px;
 	
 }
 
@@ -952,12 +960,13 @@ nav a:hover{
 }
 
 .third-slide ul li .left h2{
-	color: #e1e1e1;
+	color: #808080;
 	font-family: 'brandon_grotesquebold';
 	font-size: 30px;
 	margin-bottom: 50px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	text-align: left;
 }
 
 .third-slide ul li .left p{
@@ -967,7 +976,29 @@ nav a:hover{
 	 font-family: 'uni_sans_bookregular';
 	line-height: 18px;
 	letter-spacing: 1px;
+	text-align: left;
 }
+
+.third-slide ul li .left-2 h2{
+	color: #808080;
+	font-family: 'brandon_grotesquebold';
+	font-size: 30px;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: left;
+}
+
+.third-slide ul li .left-2 p{
+	color: #545454;
+	font-size: 14px;
+	text-transform: none;
+	 font-family: 'uni_sans_bookregular';
+	line-height: 18px;
+	letter-spacing: 1px;
+	text-align: left;
+}
+
 
 
 .third-slide nav span {
@@ -1116,5 +1147,5 @@ nav a:hover{
 
 #worldcup footer p{
 	width: 980px;
-	color: #fff;
+	color: #3a3a3a;
 }
