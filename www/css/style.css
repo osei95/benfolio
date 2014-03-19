@@ -690,15 +690,10 @@ nav a:hover{
 }
 
 #worldcup .top-quit .separator {
-<<<<<<< HEAD
-	width: 2%;
-	margin: 25px auto;
 	border-bottom: 1px solid #808080;
-=======
-	width:2%;
 	margin: 24px auto;
+	width: 2%;
 	border: 1px solid #d2d2d2;
->>>>>>> FETCH_HEAD
 	
 }
 
