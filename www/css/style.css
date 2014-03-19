@@ -199,7 +199,7 @@ body {
 
 /*Header*/
 header {
-	padding-top: 5%;	
+	padding-top: 8%;	
 }
 
 nav {
@@ -207,7 +207,7 @@ nav {
 	width: 20%;	
 	text-align: center;	
 	font-size: 16px;
-	opacity: .3;
+	opacity: .8;
 }
 
 nav li{
@@ -635,8 +635,8 @@ nav a:hover{
 }
 
 #worldcup header{
-	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
-	padding-bottom: 75px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	padding-bottom: 50px;
 	margin: 0 auto;
 	width: 76%;
 } 
@@ -655,7 +655,7 @@ nav a:hover{
 }
 
 #worldcup #top-4w {
-	height: 5%;
+	height:  	;
 }
 
 #worldcup #zero {
