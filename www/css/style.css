@@ -494,14 +494,14 @@ nav a:hover{
 #middle .works .projet-1{
 	background-image: url(images/le-manoir-enchante.png);
 	background-repeat: no-repeat;
-	/*background-size: 100%;*/
+	background-size: cover;
 	background-position: center;
 }
 
 #middle .works .projet-2{
 	background-image: url(images/world-cup.png);
 	background-repeat: no-repeat;
-	/*background-size: 100%;*/
+	background-size: cover;
 	background-position: center;
 
 }
@@ -509,7 +509,7 @@ nav a:hover{
 #middle .works .projet-3{
 	background-image: url(images/mytrip.png);
 	background-repeat: no-repeat;
-	/*background-size: 100%;*/
+	background-size: cover;
 	background-position: center;
 	
 }
@@ -517,7 +517,7 @@ nav a:hover{
 #middle .works .projet-4{
 	background-image: url(images/adrienlafond.png);
 	background-repeat: no-repeat;
-	/*background-size: 100%;*/
+	background-size: cover;
 	background-position: center;
 	
 }
@@ -541,7 +541,9 @@ nav a:hover{
 
 #bottom {
 	color: #b9b9b9;
-	height: 5%;
+	position: relative;
+	width: 100%;
+
 	/*height: 61px;*/
 	
 }
@@ -621,8 +623,6 @@ nav a:hover{
 #worldcup{
 	background-color: #5d7fbd;
 	height: 100%;
-	height: 100%;
-	min-height: 100%;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -630,14 +630,15 @@ nav a:hover{
 }
 
 #worldcup .container{
-	width: 78%;
+	width: 100%;
 	margin: 0 auto;
 }
 
 #worldcup header{
 	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 	padding-bottom: 75px;
-	width: 100%;
+	margin: 0 auto;
+	width: 76%;
 } 
 
 #worldcup ul {
@@ -658,9 +659,13 @@ nav a:hover{
 }
 
 #worldcup #zero {
-	height: 20%;
+	height: 25%;
 }
 
+#worldcup .top-quit{
+	margin: 0 auto;
+	width: 100%;
+}
 
 #worldcup .top-quit .quit-icon{
 	background-image: url(images/quit.png);
@@ -684,27 +689,21 @@ nav a:hover{
 }
 
 #worldcup .top-quit .separator {
-	width:20px;
+	width:2%;
 	margin: 24px auto;
 	border: 1px solid rgba(255, 255, 255, 0.2);
 	
 }
 
-#worldcup .top-quit h2 {
-	text-transform: uppercase;
-	color: rgba(255, 255, 255, 0.5);
-	text-align: center;
-	font-size: 14px;
-	
-}
-
 
 #worldcup #first {
-	height: 100%;
+	height: 80%;
 	background-image: url(images/bg-blur.png);
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 50%;
 	background-position: center;
+	margin: 0 auto;
+	width: 980px;
 }
 
 #worldcup #first h1 {
@@ -747,6 +746,8 @@ nav a:hover{
 	background-size: 100%;
 	background-position: center;
 	position: relative;
+	margin: 0 auto;
+	width: 980px;
 }
 
 #worldcup #second h1 {
@@ -840,11 +841,228 @@ nav a:hover{
 }
 
 
-#worldcup #third {
-	height: 70%;
+
+.third-slide {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	left: 0;
+	right: 0;
+	padding: 120px 0px 120px 0px;
+	background-image: url(images/cs-wcl/bg.png);
+	
+}
+
+.third-slide ul {
+	margin: 0;
+	padding: 0;
+
+	
+}
+
+.third-slide ul li {
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	transform: translateZ(0);
+	float: left;
+	display: block;
+}
+
+.third-slide ul li .list-content{
+	margin: 0 auto;
+	width: 85%;
+}
+
+.third-slide ul li .left{
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+.third-slide ul li .right{
+	float: right;
+	width: 50%;
+	text-align: left;
+	
+}
+
+.third-slide ul li .text{
+	margin-top: 80px;
+	margin-left: 60px;
+	
+}
+
+.third-slide ul li .right h2{
+	color: #e1e1e1;
+	font-family: 'brandon_grotesquebold';
+	font-size: 30px;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.third-slide ul li .right p{
+	color: #e1e1e1;
+	font-size: 14px;
+	text-transform: none;
+	 font-family: 'uni_sans_bookregular';
+	line-height: 18px;
+	letter-spacing: 1px;
+}
+
+.third-slide ul li .left h2{
+	color: #e1e1e1;
+	font-family: 'brandon_grotesquebold';
+	font-size: 30px;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.third-slide ul li .left p{
+	color: #e1e1e1;
+	font-size: 14px;
+	text-transform: none;
+	 font-family: 'uni_sans_bookregular';
+	line-height: 18px;
+	letter-spacing: 1px;
+}
+
+
+.third-slide nav span {
+	position: absolute;
+	top: 50%;
+	width: 50px;
+	height: 100px;
+	background: #47a3da;
+	color: #fff;
+	font-size: 50px;
+	text-align: center;
+	margin-top: -50px;
+	line-height: 100px;
+	cursor: pointer;
+	font-weight: normal;
+	visibility: hidden;
+}
+
+.third-slide nav span:hover {
+	background: #378fc3;
+}
+
+.cbp-fwdots {
+	position: absolute;
+	bottom:25px;
+	text-align: center;
+	width: 100%;
+
+}
+
+.cbp-fwdots span {
+	display: inline-block;
+	padding: 3.5px;
+	border:1px solid white;
+	margin: 10px;
+	cursor: pointer;
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5);
+}
+
+.cbp-fwdots span:hover {
+	background: #999;
+}
+
+.cbp-fwdots span.cbp-fwcurrent {
+	background: #fff;
+	-webkit-transition: box-shadow 0.2s ease-in-out;
+	-moz-transition: box-shadow 0.2s ease-in-out;
+	transition: box-shadow 0.2s ease-in-out;
+}
+
+#worldcup #fourth {
+	height: 100%;
 	background-size: 100%;
 	background-position: center;
 	position: relative;
-	border: 1px solid black;
+	margin: 0 auto;
+	width: 980px;
 }
 
+#worldcup #fourth h1 {
+	font-size: 30px;
+	font-family: "brandon_grotesquebold";
+	text-transform: uppercase;
+	color: #fff;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	
+}
+
+#worldcup #fourth .display-7 {
+	background: url(images/cs-wcl/display-7.png) no-repeat;
+	height: 520px;
+	width: 100%;
+	
+}
+
+#worldcup #fifth {
+	height: 25%;
+	margin: 100px auto 100px auto;
+	position: relative;
+	width: 980px;
+
+}
+
+#worldcup #fifth h1 {
+	font-size: 30px;
+	text-align: center;
+	font-family: "brandon_grotesquebold";
+	text-transform: uppercase;
+	color: #fff;
+	padding-bottom: 75px;
+	
+}
+
+#worldcup #fifth .btn {
+	padding-bottom: 25px;
+}
+
+#worldcup #fifth .btn a {
+	color: #fff;
+	border: 1px solid white;
+}
+
+#worldcup #fifth .controllers{
+	position: absolute;
+	top:50%;
+	width: 100%;
+}
+
+#worldcup #fifth .next {
+	height: 20px;
+	width: 20px;
+	left: 0;
+	position: absolute;
+	background: url(images/arrows.png) no-repeat;
+	
+}
+
+#worldcup #fifth .previous {
+	height: 20px;
+	width: 20px;
+	right: 0;
+	position: absolute;
+	background: url(images/arrows.png) no-repeat;
+	-moz-transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5);
+	
+}
+
+#worldcup footer p{
+	width: 980px;
+	color: #fff;
+}
