@@ -199,7 +199,7 @@ body {
 
 /*Header*/
 header {
-	padding-top: 5%;	
+	padding-top: 25px;	
 }
 
 nav {
@@ -693,7 +693,7 @@ nav a:hover{
 #worldcup .top-quit .separator {
 	width:2%;
 	margin: 24px auto;
-	border: 1px solid #808080;
+	border: 1px solid #d2d2d2;
 	
 }
 
@@ -736,7 +736,7 @@ nav a:hover{
 #worldcup #first p {
 	width: 82%;
 	font-family: "uni_sans_bookregular";
-	color: #545454;
+	color: #a8a8a8;
 	font-size: 14px;
 	letter-spacing: 1px;
 	line-height: 20px;
@@ -943,7 +943,7 @@ nav a:hover{
 }
 
 .third-slide ul li .right p{
-	color: #545454;
+	color: #a8a8a8;
 	font-size: 14px;
 	text-transform: none;
 	 font-family: 'uni_sans_bookregular';
