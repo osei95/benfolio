@@ -316,14 +316,16 @@ nav a:hover{
 
 
 #about .right {
-	width: 46%;
+	width: 40%;
 	float: right;
+	padding: 0 70px 0 0px;
 	
 }
 
 #about .left {
-	width: 46%;
+	width: 40%;
 	float: left;
+	padding: 0 0px 0 70px;
 
 
 }
@@ -706,12 +708,22 @@ nav a:hover{
 	width: 980px;
 }
 
+#worldcup .lequipe-logo {
+	background-image: url(images/cs-wcl/logo-equipe.png);
+	background-repeat: no-repeat;
+	width: 70px;
+	height: 12px;
+	position: absolute;
+	margin-top:-15px; 
+}
+
 #worldcup #first h1 {
 	font-size: 30px;
 	padding-top: 190px;
 	font-family: "brandon_grotesquebold";
 	text-transform: uppercase;
 	color: #fff;
+	position: relative;
 	
 }
 
@@ -756,6 +768,26 @@ nav a:hover{
 	text-transform: uppercase;
 	color: #fff;
 	padding-bottom: 50px;
+	
+}
+
+#worldcup #second h1 span {
+	font-size: 14px;
+	font-family: "brandon_grotesqueregular";
+	text-transform: uppercase;
+	color: #1f88fd;
+	vertical-align: top;
+	padding-right : 2px;
+	
+}
+
+#worldcup #second h2 span {
+	font-size: 10px;
+	font-family: "brandon_grotesqueregular";
+	text-transform: uppercase;
+	color: #a3a3a3;
+	vertical-align: top;
+	padding-right : 2px;
 	
 }
 
@@ -850,6 +882,16 @@ nav a:hover{
 	right: 0;
 	padding: 120px 0px 120px 0px;
 	background-image: url(images/cs-wcl/bg.png);
+	
+}
+
+#worldcup #third h2 span {
+	font-size: 14px;
+	font-family: "brandon_grotesqueregular";
+	text-transform: uppercase;
+	color: #1f88fd;
+	vertical-align: top;
+	padding-right : 2px;
 	
 }
 
@@ -996,6 +1038,16 @@ nav a:hover{
 	color: #fff;
 	padding-top: 100px;
 	padding-bottom: 50px;
+	
+}
+
+#worldcup #fourth h1 span {
+	font-size: 14px;
+	font-family: "brandon_grotesqueregular";
+	text-transform: uppercase;
+	color: #1f88fd;
+	vertical-align: top;
+	padding-right : 2px;
 	
 }
 
