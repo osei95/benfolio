@@ -170,7 +170,6 @@ body {
 	height: 100%;
 	width: 100%;
 	margin: 0 auto;
-	float: left;
 	overflow: hidden;
 	
 }
@@ -294,6 +293,8 @@ nav a:hover{
 
 #about{
 	position: relative;
+	width: 980px;
+	margin: 0 auto;
 }
 
 #about h1 {
@@ -343,7 +344,6 @@ nav a:hover{
 	height: 100%;
 	width: 100%;
 	margin: 0 auto;
-	float: left;
 	overflow: hidden;
 	position: relative;
 	
