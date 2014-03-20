@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Benoit Lafond - French UX/UI Designer</title>
+		<meta name="description" content="Benoit Lafond - French UX/UI Designer - HELLO I’M BENOIT LAFOND. I AM 23 YEARS OLD DESIGNER FROM PARIS. I LOVE PIXEL-AWESOMESNESS." />
+		<!--<link rel="stylesheet" type="text/css" href="css/default.css" />-->
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+		<link rel="stylesheet" type="text/css" href="../css/animate.css" />
+		<link rel="stylesheet" type="text/css" href="../css/fonts.css" />
+		<script src="../js/modernizr.custom.js"></script>
+		
+		
+	</head>
+	
+	<body id="magritte">
+		<div class="container">
+		
+		<section id="zero">
+		
+		
+			<div class="top-quit">
+				<div id="controllers-fixed" class="animated slideInDown">
+				<a href="../index.html"><div class="quit-icon"></div></a>
+				<a href="#"><div class="previous"></div></a>
+				<a href="#"><div class="next"></div></a>
+				</div>
+			
+			
+				<div data-scroll-reveal="enter top, move 40px, over 0.5s, wait 3.0s" id="controllers">
+				<a href="../index.html"><div class="quit-icon"></div></a>
+				<a href="worldcup.html"><div class="previous">Adrien Lafond</div></a>
+				<a href="magritte.html"><div class="next">Le Manoir Magique</div></a>
+				</div>
+				
+				<div data-scroll-reveal="enter top, move 5px, over 0.5s, wait 0.5s">
+					<h1>Montage photo</h1>
+					<div class="separator"></div>
+				</div>			
+			</div>
+		</section>
+		
+		<section id="first">
+			
+			<div data-scroll-reveal="enter bottom, move 10px, over 0.5s, wait 1.0s">
+			<p>
+This is the result of 4hours of work during an examin. 
+	We hate to do a composition inspired by magritte.
+			</p>
+			</div>
+				<div class="display-list">
+				<div data-scroll-reveal="enter bottom, move 10px, over 0.5s, wait 1.0s" class="display-1"></div>
+
+		</section>
+				
+
+		
+		<section id="fifth">
+			<h1>Thank you for watching</h1>
+				<div class="btn">
+					<a href="../index.html">My selection works</a>
+				</div>
+				
+				<div class="btn">
+					<a href="#zero">Back to top</a>
+				</div>
+				
+
+				
+		</section>
+	
+	<div id="bottom">
+	  	<footer>
+	  	
+	  		<p>Copyright © 2014 - Benoît Lafond, developed by <a href="#">Franck Osei</a></p>
+	  	
+	  	</footer>
+  	</div>	
+	
+	
+	</div>
+	</body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="../js/jquery.cbpFWSlider.min.js"></script>
+
+		
+		<script src="../js/scrollReveal.js"></script>
+		<script src="../js/main.js"></script>
+		  <script>
+
+			  window.scrollReveal = new scrollReveal();
+
+			  </script>
+		
+		<script>
+			$( function() {
+				$( '#third' ).cbpFWSlider();
+
+			} );
+  
+				  $('a[href^="#"]').click(function(){  
+				    var the_id = $(this).attr("href");  
+				    $('html, body').animate({  
+				        scrollTop:$(the_id).offset().top  
+				    }, 'slow');  
+				    return false;  
+				}); 
+				
+				  $('a[href^="#"]').click(function(){  
+				    var the_id = $(this).attr("href");  
+				    $('html, body').animate({  
+				        scrollLeft:$(the_id).offset().left  
+				    }, 'slow');  
+				    return false;  
+				}); 
+				
+
+		</script>
+</html>

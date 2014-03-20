@@ -581,6 +581,251 @@ nav a:hover{
 /*BOTTOM SIDE CSS*/
 
 
+/* MAGRITTE CSS*/
+
+/*ADRIEN LAFOND CSS*/
+
+
+#magritte{
+	background-color: #1d1d1d;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "brandon_grotesqueregular";
+}
+
+#magritte .container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+#magritte header{
+	border-bottom: 1px solid #d2d2d2;
+	margin: 0 auto;
+	width: 980px;
+	height: 140px;
+	padding-top: 0;
+} 
+
+#magritte ul {
+	padding: 30px 0 0 0;
+}
+
+#magritte ul li {
+	float: left;
+	width: 25%;
+	text-align: center;
+	color: #8a8a8a;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+
+#magritte #zero {
+	height: 18%;
+	margin-bottom: 50px;
+}
+
+#magritte .top-quit{
+	margin: 0 auto;
+	width: 100%;
+}
+
+#magritte .top-quit .quit-icon{
+	background-image: url(images/quit.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 21px;
+	padding: 0 11px 0 11px;
+	position: absolute;
+	left:0;
+	right: 0;
+	
+}
+
+#magritte .top-quit h1 {
+	text-transform: uppercase;
+	font-family: "brandon_grotesquebold";
+	color: #808080;
+	text-align: center;
+	font-size: 31px;
+	margin-top: 100px;
+	
+	
+}
+
+#magritte .top-quit .separator {
+	border-bottom: 1px solid #808080;
+	margin: 24px auto;
+	width: 2%;
+	border: 1px solid #d2d2d2;
+	
+}
+
+
+#magritte #first {
+	height: 80%;
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: center;
+	margin: 0 auto;
+	width: 980px;
+}
+
+#magritte .lequipe-logo {
+	background-image: url(images/cs-wcl/logo-equipe.png);
+	background-repeat: no-repeat;
+	width: 70px;
+	height: 12px;
+	position: absolute;
+	margin-top:-15px; 
+}
+
+#magritte #first h1 {
+	font-size: 30px;
+	padding-top: 150px;
+	font-family: "brandon_grotesquebold";
+	text-transform: uppercase;
+	color: #808080;
+	position: relative;
+	
+}
+
+#magritte #first .separator {
+	width: 77%;
+	margin: 25px 0 25px 0;
+	
+}
+
+#magritte #first p {
+	width: 40%;
+	margin: 0 auto;
+	font-family: "uni_sans_bookregular";
+	color: #a8a8a8;
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 20px;
+	padding-top: 60px;
+	text-align: center;
+}
+#magritte #first .display-list {
+	position: relative;
+	margin-top: 50px;
+}
+
+
+#magritte #first .display-1 {
+	background: url(images/cs-magritte/display-1.png) no-repeat;
+	height: 634px;
+	width: 416px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 10;
+	
+}
+
+
+#magritte #controllers-fixed{
+	position: relative;
+	top: 0;
+	width: 100%;
+	/* height: 50px; */
+	padding: 25px 0 25px 0;
+	z-index: 99;
+	background-color: #fff;
+	display: none;
+}
+
+#magritte #controllers-fixed.floatable{
+	position: fixed;
+	top: 0;
+	display: block;
+	background-color:rgba(0, 0, 0, 0.5);
+	height: 20px;
+}
+
+
+#magritte #controllers{
+	position: relative;
+	top: 0;
+	width: 100%;
+	/* height: 50px; */
+	padding: 25px 0 25px 0;
+	z-index: 99;
+}
+
+#magritte  .next {
+height: 40px;
+width: 400px;
+right: 50px;
+text-transform: uppercase;
+position: absolute;
+color: #c0c0c0;
+font-size: 12px;
+padding-right: 30px;
+padding-top: 0.3%;
+text-align: right;
+background: url(images/arrows-2.png) no-repeat;
+background-position-x: 100%;
+	
+}
+
+#magritte  .previous {
+	height: 40px;
+	width: 400px;
+	left: 50px;
+	text-transform: uppercase;
+	position: absolute;
+	color: #c0c0c0;
+	font-size: 12px;
+	padding-left: 30px;
+	padding-top: 0.3%;
+	background: url(images/arrows.png) no-repeat;
+	background-position-x: 0px;
+}
+
+#magritte footer p{
+	width: 980px;
+	color: #3a3a3a;
+}
+
+#magritte footer p span{
+	width: 980px;
+	color: #fff;
+}
+
+#magritte #fifth {
+	height: 25%;
+	margin: 350px auto 50px auto;
+	position: relative;
+	width: 980px;
+
+}
+
+#magritte #fifth h1 {
+	font-size: 30px;
+	text-align: center;
+	font-family: "brandon_grotesquebold";
+	text-transform: uppercase;
+	color: #585858;
+	padding-bottom: 75px;
+	
+}
+
+#magritte #fifth .btn {
+	padding-bottom: 25px;
+}
+
+#magritte #fifth .btn a {
+	color: #585858;
+	border: 1px solid #585858;
+}
+
+
+
+/* MAGRITTE CSS*/
+
 /*ADRIEN LAFOND CSS*/
 
 
@@ -1190,45 +1435,6 @@ background-position-x: 100%;
 
 /*WC CSS*/
 
-/*icons*/
-
-#worldcup .what{
-	background-image: url(images/what.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	padding: 0px 0 30px 0;
-	height: 22px;
-	
-}
-
-#worldcup .where{
-	background-image: url(images/where.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	padding: 0px 0 30px 0;
-	height: 22px;
-	
-}
-
-#worldcup .who{
-	background-image: url(images/who.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	padding: 0px 0 30px 0;
-	height: 22px;
-	
-}
-
-#worldcup .when{
-	background-image: url(images/when.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	padding: 0px 0 30px 0;
-	height: 22px;
-	
-}
-/*icons*/
-
 #worldcup{
 	background-color: #fff;
 	height: 100%;
@@ -1503,6 +1709,7 @@ background-position-x: 100%;
 	padding-right : 2px;
 	
 }
+
 
 .third-slide ul {
 	margin: 0;
