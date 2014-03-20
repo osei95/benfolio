@@ -581,6 +581,589 @@ nav a:hover{
 /*BOTTOM SIDE CSS*/
 
 
+/*ADRIEN LAFOND CSS*/
+
+
+#adrien-lafond{
+	background-color: #fff;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "brandon_grotesqueregular";
+}
+
+#adrien-lafond .container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+#adrien-lafond header{
+	border-bottom: 1px solid #d2d2d2;
+	margin: 0 auto;
+	width: 980px;
+	height: 140px;
+	padding-top: 0;
+} 
+
+#adrien-lafond ul {
+	padding: 30px 0 0 0;
+}
+
+#adrien-lafond ul li {
+	float: left;
+	width: 25%;
+	text-align: center;
+	color: #8a8a8a;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+
+#adrien-lafond #zero {
+	height: 18%;
+	margin-bottom: 50px;
+}
+
+#adrien-lafond .top-quit{
+	margin: 0 auto;
+	width: 100%;
+}
+
+#adrien-lafond .top-quit .quit-icon{
+	background-image: url(images/quit.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 21px;
+	padding: 0 11px 0 11px;
+	position: absolute;
+	left:0;
+	right: 0;
+	
+}
+
+#adrien-lafond .top-quit h1 {
+	text-transform: uppercase;
+	font-family: "brandon_grotesquebold";
+	color: #808080;
+	text-align: center;
+	font-size: 31px;
+	margin-top: 100px;
+	
+	
+}
+
+#adrien-lafond .top-quit .separator {
+	border-bottom: 1px solid #808080;
+	margin: 24px auto;
+	width: 2%;
+	border: 1px solid #d2d2d2;
+	
+}
+
+
+#adrien-lafond #first {
+	height: 80%;
+	background-image: url(images/bg-blur.png);
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: center;
+	margin: 0 auto;
+	width: 980px;
+}
+
+#adrien-lafond .lequipe-logo {
+	background-image: url(images/cs-wcl/logo-equipe.png);
+	background-repeat: no-repeat;
+	width: 70px;
+	height: 12px;
+	position: absolute;
+	margin-top:-15px; 
+}
+
+#adrien-lafond #first h1 {
+	font-size: 30px;
+	padding-top: 150px;
+	font-family: "brandon_grotesquebold";
+	text-transform: uppercase;
+	color: #808080;
+	position: relative;
+	
+}
+
+#adrien-lafond #first .separator {
+	width: 77%;
+	margin: 25px 0 25px 0;
+	
+}
+
+#adrien-lafond #first p {
+	width: 82%;
+	margin: 0 auto;
+	font-family: "uni_sans_bookregular";
+	color: #a8a8a8;
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 20px;
+	padding: 50px;
+	text-align: center;
+}
+
+#adrien-lafond #first .display-list {
+	position: relative;
+	margin-top: 50px;
+}
+
+
+#adrien-lafond #first .display-1 {
+	background: url(images/cs-adrienlafond/display-1.png) no-repeat;
+	height: 390px;
+	width: 522px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 10;
+	
+}
+
+#adrien-lafond #first .display-2 {
+	background: url(images/cs-adrienlafond/display-2.png) no-repeat;
+	height: 103px;
+	width: 68px;
+	margin: 0 auto;
+	position: absolute;
+	top: 170px;
+	right:160px;
+	z-index:9; 
+}
+
+#adrien-lafond #first .display-3 {
+	background: url(images/cs-adrienlafond/display-3.png) no-repeat;
+	height: 103px;
+	width: 68px;
+	margin: 0 auto;
+	position: absolute;
+	top: 170px;
+	right:90px;
+	z-index:8; 
+	
+}
+
+#adrien-lafond #first .display-4 {
+	background: url(images/cs-adrienlafond/display-4.png) no-repeat;
+	height: 205px;
+	width: 145px;
+	margin: 0 auto;
+	position: absolute;
+	top: 145px;
+	left:105px;
+	z-index:7; 
+	
+}
+
+#adrien-lafond #first .display-5 {
+	background: url(images/cs-adrienlafond/display-5.png) no-repeat;
+	height: 455px;
+	width: 442px;
+	margin: 0 auto;
+	position: absolute;
+	top: -60px;
+	left:-100px;
+	z-index:6; 
+	
+}
+
+
+#adrien-lafond #second {
+	height: 100%;
+	background-size: 100%;
+	background-position: center;
+	position: relative;
+	margin: 200px auto 0 auto;
+	width: 980px;
+}
+
+#adrien-lafond #second h1 {
+	font-size: 30px;
+	font-family: "brandon_grotesquebold";
+	text-transform: uppercase;
+	color: #808080;
+	padding-bottom: 50px;
+	
+}
+
+#adrien-lafond #second h1 span {
+	font-size: 14px;
+	font-family: "brandon_grotesqueregular";
+	text-transform: uppercase;
+	color: #00b687;
+	vertical-align: top;
+	padding-right : 2px;
+	
+}
+
+
+
+#adrien-lafond #second .display-6 {
+	background: url(images/cs-adrienlafond/display-6.png) no-repeat;
+	height: 520px;
+	width: 100%;
+	
+}
+
+
+#adrien-lafond #third-big {
+	height: 100%;
+	background-size: 100%;
+	background-position: center;
+	position: relative;
+	margin: 0px auto 0 auto;
+	width: 980px;
+}
+
+#adrien-lafond #third-big h1 {
+	font-size: 30px;
+	font-family: "brandon_grotesquebold";
+	text-transform: uppercase;
+	color: #808080;
+	padding-bottom: 50px;
+	
+}
+
+#adrien-lafond #third-big h1 span {
+	font-size: 14px;
+	font-family: "brandon_grotesqueregular";
+	text-transform: uppercase;
+	color: #00b687;
+	vertical-align: top;
+	padding-right : 2px;
+	
+}
+
+
+#adrien-lafond .macbook {
+	width: 100%;
+	margin: 0 auto;
+	background-image: url(images/cs-adrienlafond/macbook-mask.png);
+	height: 589px;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	
+}
+
+
+#adrien-lafond #third {
+width: 622px;
+margin: 0 auto;
+height:440px;
+left:1px;
+top:3px;
+right:0;
+position: absolute;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#adrien-lafond .third-slide {
+	position: relative;
+	overflow: hidden;
+	padding: 100px 0px 100px 0px;
+
+}
+
+
+#adrien-lafond .third-slide ul {
+margin: 0;
+padding: 100px 0;
+position: absolute;
+overflow: hidden;
+height:266px;
+top: 0;
+	
+}
+
+#adrien-lafond .third-slide ul li {
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	transform: translateZ(0);
+	float: left;
+	display: block;
+}
+
+#adrien-lafond .third-slide ul li .list-content{
+	margin: 0 auto;
+	width: 625px;
+	height: 390px;
+	position: relative;
+	top: -19px;
+}
+
+#adrien-lafond .third-slide ul li .left{
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+#adrien-lafond .third-slide ul li .right{
+	float: right;
+	width: 50%;
+	text-align: left;
+	
+}
+
+#adrien-lafond .third-slide ul li .text{
+	margin-top: 80px;
+	margin-left: 50px;
+	
+}
+
+#adrien-lafond .third-slide ul li .right h2{
+	color: #e1e1e1;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+#adrien-lafond .third-slide ul li .right p{
+	color: #e1e1e1;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+#adrien-lafond .third-slide ul li .left h2{
+	color: #e1e1e1;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+#adrien-lafond .third-slide ul li .left p{
+	color: #e1e1e1;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+#adrien-lafond .third-slide .list-content .img2{
+	background-image: url(../images/2.jpg);
+	height: 538px;
+	display: block;
+}
+
+#adrien-lafond .third-slide .list-content .img2.animate{
+	background-position:0px -590px;
+}
+
+
+#adrien-lafond .third-slide nav span {
+	position: absolute;
+	top: 50%;
+	width: 50px;
+	height: 100px;
+	background: #47a3da;
+	color: #fff;
+	font-size: 50px;
+	text-align: center;
+	margin-top: -50px;
+	line-height: 100px;
+	cursor: pointer;
+	font-weight: normal;
+	visibility: hidden;
+}
+
+#adrien-lafond .third-slide nav span:hover {
+	background: #378fc3;
+}
+
+#adrien-lafond .cbp-fwdots {
+	position: absolute;
+	bottom: 50px;
+	text-align: center;
+	width: 100%;
+}
+
+#adrien-lafond .cbp-fwdots span {
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	border: 1px solid #585858;
+	margin: 20px;
+	cursor: pointer;
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5);
+}
+
+#adrien-lafond .cbp-fwdots span:hover {
+	background: #999;
+}
+
+#adrien-lafond .cbp-fwdots span.cbp-fwcurrent {
+	background: #585858;
+	-webkit-transition: box-shadow 0.2s ease-in-out;
+	-moz-transition: box-shadow 0.2s ease-in-out;
+	transition: box-shadow 0.2s ease-in-out;
+}
+#adrien-lafond #fourth {
+	height: 140%;
+	background-size: 100%;
+	background-position: center;
+	position: relative;
+	margin: 0 auto;
+	width: 980px;
+}
+
+#adrien-lafond #fourth h1 {
+	font-size: 30px;
+	font-family: "brandon_grotesquebold";
+	text-transform: uppercase;
+	color: #808080;
+	padding-bottom: 50px;
+	
+}
+
+#adrien-lafond #fourth h1 span {
+	font-size: 14px;
+	font-family: "brandon_grotesqueregular";
+	text-transform: uppercase;
+	color: #00b687;
+	vertical-align: top;
+	padding-right : 2px;
+	
+}
+
+#adrien-lafond #fourth .display-list {
+	position: relative;
+
+}
+
+#adrien-lafond #fourth .display-7 {
+	background: url(images/cs-adrienlafond/display-7.png) no-repeat;
+	height: 378px;
+	width: 669px;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 1;
+}
+
+#adrien-lafond #fourth .display-8 {
+	background: url(images/cs-adrienlafond/display-8.png) no-repeat;
+	height: 378px;
+	width: 669px;
+	position: absolute;
+	top:160px;
+	right:0;
+	z-index: 2;
+	
+}
+
+#adrien-lafond #fourth .display-9 {
+	background: url(images/cs-adrienlafond/display-9.png) no-repeat;
+	height: 378px;
+	width: 669px;
+	position: absolute;
+	top:420px;
+	left:0;
+	z-index: 1;
+	
+}
+
+#adrien-lafond #fifth {
+	height: 25%;
+	margin: 100px auto 100px auto;
+	position: relative;
+	width: 980px;
+
+}
+
+#adrien-lafond #fifth h1 {
+	font-size: 30px;
+	text-align: center;
+	font-family: "brandon_grotesquebold";
+	text-transform: uppercase;
+	color: #585858;
+	padding-bottom: 75px;
+	
+}
+
+#adrien-lafond #fifth .btn {
+	padding-bottom: 25px;
+}
+
+#adrien-lafond #fifth .btn a {
+	color: #585858;
+	border: 1px solid #585858;
+}
+
+#controllers-fixed{
+	position: relative;
+	top: 0;
+	width: 100%;
+	/* height: 50px; */
+	padding: 25px 0 25px 0;
+	z-index: 99;
+	background-color: #fff;
+	display: none;
+}
+
+#controllers-fixed.floatable{
+	position: fixed;
+	top: 0;
+	display: block;
+	background-color:rgba(255, 255, 255, 0.9);
+	height: 20px;
+}
+
+
+#controllers{
+	position: relative;
+	top: 0;
+	width: 100%;
+	/* height: 50px; */
+	padding: 25px 0 25px 0;
+	z-index: 99;
+}
+
+#adrien-lafond .next {
+height: 40px;
+width: 400px;
+right: 50px;
+text-transform: uppercase;
+position: absolute;
+color: #585858;
+font-size: 12px;
+padding-right: 30px;
+padding-top: 0.3%;
+text-align: right;
+background: url(images/arrows-2.png) no-repeat;
+background-position-x: 100%;
+	
+}
+
+#adrien-lafond .previous {
+	height: 40px;
+	width: 400px;
+	left: 50px;
+	text-transform: uppercase;
+	position: absolute;
+	color: #585858;
+	font-size: 12px;
+	padding-left: 30px;
+	padding-top: 0.3%;
+	background: url(images/arrows.png) no-repeat;
+	background-position-x: 0px;
+}
+
+#adrien-lafond footer p{
+	width: 980px;
+	color: #3a3a3a;
+}
+
+#adrien-lafond footer p span{
+	width: 980px;
+	color: #fff;
+}
+
+
 /*WC CSS*/
 
 /*icons*/
@@ -876,7 +1459,7 @@ nav a:hover{
 
 
 
-.third-slide {
+#worldcup .third-slide {
 	position: relative;
 	overflow: hidden;
 	width: 100%;
