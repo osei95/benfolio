@@ -493,6 +493,13 @@ nav a:hover{
 	transition: background 0.2s ease-in-out;
 }
 
+#middle .works .projet-0 {
+	background-image: url(images/franck.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
 #middle .works .projet-1{
 	background-image: url(images/le-manoir-enchante.png);
 	background-repeat: no-repeat;
@@ -518,6 +525,14 @@ nav a:hover{
 
 #middle .works .projet-4{
 	background-image: url(images/adrienlafond.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+#middle .works .projet-5 h1 {
+	background-image: #000;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
